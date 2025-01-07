@@ -1,0 +1,26 @@
+{
+  "name": "mpma-management-system",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --watch --env-file=src/.env src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "cron": "^3.3.1",
+    "date-and-time": "^3.6.0",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.9.8",
+    "mysqldump": "^3.2.0",
+    "stream": "^0.0.3",
+    "zod": "^3.23.8"
+  },
+  "description": ""
+}
